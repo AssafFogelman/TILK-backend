@@ -1,0 +1,1 @@
+ALTER TABLE "chat_read_status" DROP CONSTRAINT "chat_read_status_chat_id_user_id_pk";

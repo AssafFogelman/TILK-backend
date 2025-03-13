@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS "unique_participants" ON "chats" ("participant1","participant2");

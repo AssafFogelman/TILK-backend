@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS "unique_blocks" ON "blocks" ("blocking_user_id","blocked_user_id");

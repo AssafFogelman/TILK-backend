@@ -1,0 +1,1002 @@
+[
+  {
+    "categoryName": "play sports",
+    "tags": [
+      {
+        "tagContent": "soccer"
+      },
+      {
+        "tagContent": "basketball"
+      },
+      {
+        "tagContent": "tennis"
+      },
+      {
+        "tagContent": "badminton"
+      },
+      {
+        "tagContent": "baseball"
+      },
+      {
+        "tagContent": "volleyball"
+      },
+      {
+        "tagContent": "golf"
+      },
+      {
+        "tagContent": "swimming"
+      },
+      {
+        "tagContent": "running"
+      },
+      {
+        "tagContent": "cycling"
+      },
+      {
+        "tagContent": "hiking"
+      },
+      {
+        "tagContent": "skiing"
+      },
+      {
+        "tagContent": "snowboarding"
+      },
+      {
+        "tagContent": "surfing"
+      },
+      {
+        "tagContent": "skateboarding"
+      }
+    ]
+  },
+  {
+    "categoryName": "Eat",
+    "tags": [
+      {
+        "tagContent": "dine at a restaurant"
+      },
+      {
+        "tagContent": "picnic"
+      },
+      {
+        "tagContent": "food festival"
+      },
+      {
+        "tagContent": "barbecue"
+      },
+      {
+        "tagContent": "food truck"
+      },
+      {
+        "tagContent": "cooking class"
+      },
+      {
+        "tagContent": "dessert tasting"
+      },
+      {
+        "tagContent": "wine tasting"
+      },
+      {
+        "tagContent": "brewery tour"
+      },
+      {
+        "tagContent": "coffee shop"
+      },
+      {
+        "tagContent": "brunch"
+      },
+      {
+        "tagContent": "buffet"
+      },
+      {
+        "tagContent": "street food"
+      },
+      {
+        "tagContent": "sushi night"
+      },
+      {
+        "tagContent": "fine dining"
+      }
+    ]
+  },
+  {
+    "categoryName": "Travel",
+    "tags": [
+      {
+        "tagContent": "road trip"
+      },
+      {
+        "tagContent": "weekend getaway"
+      },
+      {
+        "tagContent": "international trip"
+      },
+      {
+        "tagContent": "beach vacation"
+      },
+      {
+        "tagContent": "mountain retreat"
+      },
+      {
+        "tagContent": "city tour"
+      },
+      {
+        "tagContent": "cruise"
+      },
+      {
+        "tagContent": "camping"
+      },
+      {
+        "tagContent": "backpacking"
+      },
+      {
+        "tagContent": "train journey"
+      },
+      {
+        "tagContent": "safari"
+      },
+      {
+        "tagContent": "island hopping"
+      },
+      {
+        "tagContent": "cultural tour"
+      },
+      {
+        "tagContent": "historical tour"
+      },
+      {
+        "tagContent": "adventure travel"
+      }
+    ]
+  },
+  {
+    "categoryName": "Watch Movies",
+    "tags": [
+      {
+        "tagContent": "cinema"
+      },
+      {
+        "tagContent": "drive-in theater"
+      },
+      {
+        "tagContent": "home movie night"
+      },
+      {
+        "tagContent": "film festival"
+      },
+      {
+        "tagContent": "movie marathon"
+      },
+      {
+        "tagContent": "outdoor screening"
+      },
+      {
+        "tagContent": "3D movies"
+      },
+      {
+        "tagContent": "IMAX experience"
+      },
+      {
+        "tagContent": "classic films"
+      },
+      {
+        "tagContent": "independent films"
+      },
+      {
+        "tagContent": "documentaries"
+      },
+      {
+        "tagContent": "animated films"
+      },
+      {
+        "tagContent": "foreign films"
+      },
+      {
+        "tagContent": "short films"
+      },
+      {
+        "tagContent": "horror movies"
+      }
+    ]
+  },
+  {
+    "categoryName": "Attend Events",
+    "tags": [
+      {
+        "tagContent": "concerts"
+      },
+      {
+        "tagContent": "sports events"
+      },
+      {
+        "tagContent": "theater"
+      },
+      {
+        "tagContent": "comedy show"
+      },
+      {
+        "tagContent": "festival"
+      },
+      {
+        "tagContent": "parade"
+      },
+      {
+        "tagContent": "fair"
+      },
+      {
+        "tagContent": "exhibition"
+      },
+      {
+        "tagContent": "book signing"
+      },
+      {
+        "tagContent": "charity event"
+      },
+      {
+        "tagContent": "fashion show"
+      },
+      {
+        "tagContent": "trade show"
+      },
+      {
+        "tagContent": "carnival"
+      },
+      {
+        "tagContent": "circus"
+      },
+      {
+        "tagContent": "fireworks display"
+      }
+    ]
+  },
+  {
+    "categoryName": "Exercise",
+    "tags": [
+      {
+        "tagContent": "yoga"
+      },
+      {
+        "tagContent": "pilates"
+      },
+      {
+        "tagContent": "gym workout"
+      },
+      {
+        "tagContent": "running"
+      },
+      {
+        "tagContent": "cycling"
+      },
+      {
+        "tagContent": "swimming"
+      },
+      {
+        "tagContent": "aerobics"
+      },
+      {
+        "tagContent": "dance class"
+      },
+      {
+        "tagContent": "martial arts"
+      },
+      {
+        "tagContent": "hiking"
+      },
+      {
+        "tagContent": "rock climbing"
+      },
+      {
+        "tagContent": "crossfit"
+      },
+      {
+        "tagContent": "boot camp"
+      },
+      {
+        "tagContent": "rowing"
+      },
+      {
+        "tagContent": "kickboxing"
+      }
+    ]
+  },
+  {
+    "categoryName": "Play Games",
+    "tags": [
+      {
+        "tagContent": "board games"
+      },
+      {
+        "tagContent": "card games"
+      },
+      {
+        "tagContent": "video games"
+      },
+      {
+        "tagContent": "escape room"
+      },
+      {
+        "tagContent": "trivia night"
+      },
+      {
+        "tagContent": "puzzle games"
+      },
+      {
+        "tagContent": "tabletop RPGs"
+      },
+      {
+        "tagContent": "outdoor games"
+      },
+      {
+        "tagContent": "arcade games"
+      },
+      {
+        "tagContent": "laser tag"
+      },
+      {
+        "tagContent": "paintball"
+      },
+      {
+        "tagContent": "mini-golf"
+      },
+      {
+        "tagContent": "bowling"
+      },
+      {
+        "tagContent": "darts"
+      },
+      {
+        "tagContent": "pool"
+      }
+    ]
+  },
+  {
+    "categoryName": "Study",
+    "tags": [
+      {
+        "tagContent": "study group"
+      },
+      {
+        "tagContent": "library session"
+      },
+      {
+        "tagContent": "online course"
+      },
+      {
+        "tagContent": "tutoring"
+      },
+      {
+        "tagContent": "language exchange"
+      },
+      {
+        "tagContent": "research project"
+      },
+      {
+        "tagContent": "exam prep"
+      },
+      {
+        "tagContent": "homework help"
+      },
+      {
+        "tagContent": "book club"
+      },
+      {
+        "tagContent": "seminar"
+      },
+      {
+        "tagContent": "workshop"
+      },
+      {
+        "tagContent": "lecture"
+      },
+      {
+        "tagContent": "study retreat"
+      },
+      {
+        "tagContent": "peer review"
+      },
+      {
+        "tagContent": "flashcards"
+      }
+    ]
+  },
+  {
+    "categoryName": "Shop",
+    "tags": [
+      {
+        "tagContent": "mall"
+      },
+      {
+        "tagContent": "thrift store"
+      },
+      {
+        "tagContent": "flea market"
+      },
+      {
+        "tagContent": "farmers market"
+      },
+      {
+        "tagContent": "outlet shopping"
+      },
+      {
+        "tagContent": "online shopping"
+      },
+      {
+        "tagContent": "craft fair"
+      },
+      {
+        "tagContent": "antique store"
+      },
+      {
+        "tagContent": "bookstore"
+      },
+      {
+        "tagContent": "fashion boutique"
+      },
+      {
+        "tagContent": "electronics store"
+      },
+      {
+        "tagContent": "pet store"
+      },
+      {
+        "tagContent": "grocery shopping"
+      },
+      {
+        "tagContent": "home decor store"
+      },
+      {
+        "tagContent": "garden center"
+      }
+    ]
+  },
+  {
+    "categoryName": "Volunteer",
+    "tags": [
+      {
+        "tagContent": "soup kitchen"
+      },
+      {
+        "tagContent": "animal shelter"
+      },
+      {
+        "tagContent": "community cleanup"
+      },
+      {
+        "tagContent": "charity run"
+      },
+      {
+        "tagContent": "food bank"
+      },
+      {
+        "tagContent": "elderly home"
+      },
+      {
+        "tagContent": "youth mentoring"
+      },
+      {
+        "tagContent": "fundraising event"
+      },
+      {
+        "tagContent": "disaster relief"
+      },
+      {
+        "tagContent": "environmental conservation"
+      },
+      {
+        "tagContent": "hospital volunteer"
+      },
+      {
+        "tagContent": "school volunteer"
+      },
+      {
+        "tagContent": "library volunteer"
+      },
+      {
+        "tagContent": "park volunteer"
+      },
+      {
+        "tagContent": "special needs support"
+      }
+    ]
+  },
+  {
+    "categoryName": "Hike",
+    "tags": [
+      {
+        "tagContent": "mountain hike"
+      },
+      {
+        "tagContent": "forest hike"
+      },
+      {
+        "tagContent": "desert hike"
+      },
+      {
+        "tagContent": "beach hike"
+      },
+      {
+        "tagContent": "waterfall hike"
+      },
+      {
+        "tagContent": "canyon hike"
+      },
+      {
+        "tagContent": "national park hike"
+      },
+      {
+        "tagContent": "urban hike"
+      },
+      {
+        "tagContent": "wildlife hike"
+      },
+      {
+        "tagContent": "sunrise hike"
+      },
+      {
+        "tagContent": "sunset hike"
+      },
+      {
+        "tagContent": "night hike"
+      },
+      {
+        "tagContent": "day hike"
+      },
+      {
+        "tagContent": "multi-day hike"
+      },
+      {
+        "tagContent": "guided hike"
+      }
+    ]
+  },
+  {
+    "categoryName": "Relax",
+    "tags": [
+      {
+        "tagContent": "spa day"
+      },
+      {
+        "tagContent": "beach day"
+      },
+      {
+        "tagContent": "hot springs"
+      },
+      {
+        "tagContent": "meditation"
+      },
+      {
+        "tagContent": "reading"
+      },
+      {
+        "tagContent": "napping"
+      },
+      {
+        "tagContent": "gardening"
+      },
+      {
+        "tagContent": "bird watching"
+      },
+      {
+        "tagContent": "stargazing"
+      },
+      {
+        "tagContent": "massage"
+      },
+      {
+        "tagContent": "bubble bath"
+      },
+      {
+        "tagContent": "listening to music"
+      },
+      {
+        "tagContent": "watching TV"
+      },
+      {
+        "tagContent": "journaling"
+      },
+      {
+        "tagContent": "coloring"
+      }
+    ]
+  },
+  {
+    "categoryName": "Explore Nature",
+    "tags": [
+      {
+        "tagContent": "bird watching"
+      },
+      {
+        "tagContent": "wildlife safari"
+      },
+      {
+        "tagContent": "botanical garden"
+      },
+      {
+        "tagContent": "nature reserve"
+      },
+      {
+        "tagContent": "national park"
+      },
+      {
+        "tagContent": "beachcombing"
+      },
+      {
+        "tagContent": "cave exploration"
+      },
+      {
+        "tagContent": "river rafting"
+      },
+      {
+        "tagContent": "scuba diving"
+      },
+      {
+        "tagContent": "snorkeling"
+      },
+      {
+        "tagContent": "fishing"
+      },
+      {
+        "tagContent": "kayaking"
+      },
+      {
+        "tagContent": "camping"
+      },
+      {
+        "tagContent": "rock climbing"
+      },
+      {
+        "tagContent": "mountain biking"
+      }
+    ]
+  },
+  {
+    "categoryName": "Attend Classes",
+    "tags": [
+      {
+        "tagContent": "art class"
+      },
+      {
+        "tagContent": "dance class"
+      },
+      {
+        "tagContent": "cooking class"
+      },
+      {
+        "tagContent": "yoga class"
+      },
+      {
+        "tagContent": "language class"
+      },
+      {
+        "tagContent": "music class"
+      },
+      {
+        "tagContent": "photography class"
+      },
+      {
+        "tagContent": "writing class"
+      },
+      {
+        "tagContent": "pottery class"
+      },
+      {
+        "tagContent": "acting class"
+      },
+      {
+        "tagContent": "fitness class"
+      },
+      {
+        "tagContent": "martial arts class"
+      },
+      {
+        "tagContent": "gardening class"
+      },
+      {
+        "tagContent": "coding class"
+      },
+      {
+        "tagContent": "business class"
+      }
+    ]
+  },
+  {
+    "categoryName": "Create Art",
+    "tags": [
+      {
+        "tagContent": "painting"
+      },
+      {
+        "tagContent": "drawing"
+      },
+      {
+        "tagContent": "sculpting"
+      },
+      {
+        "tagContent": "photography"
+      },
+      {
+        "tagContent": "crafting"
+      },
+      {
+        "tagContent": "sewing"
+      },
+      {
+        "tagContent": "knitting"
+      },
+      {
+        "tagContent": "scrapbooking"
+      },
+      {
+        "tagContent": "woodworking"
+      },
+      {
+        "tagContent": "jewelry making"
+      },
+      {
+        "tagContent": "pottery"
+      },
+      {
+        "tagContent": "calligraphy"
+      },
+      {
+        "tagContent": "digital art"
+      },
+      {
+        "tagContent": "printmaking"
+      },
+      {
+        "tagContent": "collage"
+      }
+    ]
+  },
+  {
+    "categoryName": "Listen to Music",
+    "tags": [
+      {
+        "tagContent": "concert"
+      },
+      {
+        "tagContent": "music festival"
+      },
+      {
+        "tagContent": "live band"
+      },
+      {
+        "tagContent": "karaoke"
+      },
+      {
+        "tagContent": "vinyl listening"
+      },
+      {
+        "tagContent": "jam session"
+      },
+      {
+        "tagContent": "music class"
+      },
+      {
+        "tagContent": "open mic night"
+      },
+      {
+        "tagContent": "DJ night"
+      },
+      {
+        "tagContent": "opera"
+      },
+      {
+        "tagContent": "symphony"
+      },
+      {
+        "tagContent": "choir performance"
+      },
+      {
+        "tagContent": "musical theater"
+      },
+      {
+        "tagContent": "street performance"
+      },
+      {
+        "tagContent": "radio show"
+      }
+    ]
+  },
+  {
+    "categoryName": "Dance",
+    "tags": [
+      {
+        "tagContent": "dance class"
+      },
+      {
+        "tagContent": "nightclub"
+      },
+      {
+        "tagContent": "dance party"
+      },
+      {
+        "tagContent": "ballroom dancing"
+      },
+      {
+        "tagContent": "salsa dancing"
+      },
+      {
+        "tagContent": "swing dancing"
+      },
+      {
+        "tagContent": "hip-hop dancing"
+      },
+      {
+        "tagContent": "ballet"
+      },
+      {
+        "tagContent": "tap dancing"
+      },
+      {
+        "tagContent": "folk dancing"
+      },
+      {
+        "tagContent": "line dancing"
+      },
+      {
+        "tagContent": "breakdancing"
+      },
+      {
+        "tagContent": "contemporary dance"
+      },
+      {
+        "tagContent": "dance competition"
+      },
+      {
+        "tagContent": "flash mob"
+      }
+    ]
+  },
+  {
+    "categoryName": "Cook",
+    "tags": [
+      {
+        "tagContent": "baking"
+      },
+      {
+        "tagContent": "grilling"
+      },
+      {
+        "tagContent": "meal prep"
+      },
+      {
+        "tagContent": "cooking class"
+      },
+      {
+        "tagContent": "recipe testing"
+      },
+      {
+        "tagContent": "holiday cooking"
+      },
+      {
+        "tagContent": "international cuisine"
+      },
+      {
+        "tagContent": "vegan cooking"
+      },
+      {
+        "tagContent": "BBQ"
+      },
+      {
+        "tagContent": "pastry making"
+      },
+      {
+        "tagContent": "dessert making"
+      },
+      {
+        "tagContent": "slow cooking"
+      },
+      {
+        "tagContent": "pressure cooking"
+      },
+      {
+        "tagContent": "canning"
+      },
+      {
+        "tagContent": "food presentation"
+      }
+    ]
+  },
+  {
+    "categoryName": "Attend Workshops",
+    "tags": [
+      {
+        "tagContent": "writing workshop"
+      },
+      {
+        "tagContent": "art workshop"
+      },
+      {
+        "tagContent": "business workshop"
+      },
+      {
+        "tagContent": "photography workshop"
+      },
+      {
+        "tagContent": "fitness workshop"
+      },
+      {
+        "tagContent": "wellness workshop"
+      },
+      {
+        "tagContent": "technology workshop"
+      },
+      {
+        "tagContent": "gardening workshop"
+      },
+      {
+        "tagContent": "craft workshop"
+      },
+      {
+        "tagContent": "music workshop"
+      },
+      {
+        "tagContent": "dance workshop"
+      },
+      {
+        "tagContent": "cooking workshop"
+      },
+      {
+        "tagContent": "language workshop"
+      },
+      {
+        "tagContent": "career development workshop"
+      },
+      {
+        "tagContent": "leadership workshop"
+      }
+    ]
+  },
+  {
+    "categoryName": "Visit Museums",
+    "tags": [
+      {
+        "tagContent": "art museum"
+      },
+      {
+        "tagContent": "history museum"
+      },
+      {
+        "tagContent": "science museum"
+      },
+      {
+        "tagContent": "children's museum"
+      },
+      {
+        "tagContent": "natural history museum"
+      },
+      {
+        "tagContent": "technology museum"
+      },
+      {
+        "tagContent": "maritime museum"
+      },
+      {
+        "tagContent": "aviation museum"
+      },
+      {
+        "tagContent": "space museum"
+      },
+      {
+        "tagContent": "interactive museum"
+      },
+      {
+        "tagContent": "local history museum"
+      },
+      {
+        "tagContent": "ethnographic museum"
+      },
+      {
+        "tagContent": "military museum"
+      },
+      {
+        "tagContent": "transportation museum"
+      },
+      {
+        "tagContent": "specialty museum"
+      }
+    ]
+  }
+]

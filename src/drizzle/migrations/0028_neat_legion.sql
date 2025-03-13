@@ -1,0 +1,1 @@
+ALTER TABLE "unread_events" ADD COLUMN "id" uuid DEFAULT gen_random_uuid() NOT NULL;

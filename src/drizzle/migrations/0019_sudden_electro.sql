@@ -1,0 +1,1 @@
+ALTER TABLE "chat_read_date" ADD CONSTRAINT "chat_read_date_chat_id_user_id_pk" PRIMARY KEY("chat_id","user_id");

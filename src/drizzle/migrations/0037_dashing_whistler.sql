@@ -1,0 +1,1 @@
+ALTER TABLE "unread_events" DROP COLUMN IF EXISTS "id";
