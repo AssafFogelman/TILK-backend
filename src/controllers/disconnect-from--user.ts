@@ -1,6 +1,6 @@
 import { Context } from "hono";
 import { db } from "../drizzle/db.js";
-import { blocks, connections } from "../drizzle/schema.js";
+import { connections } from "../drizzle/schema.js";
 import { eq, or } from "drizzle-orm";
 import { and } from "drizzle-orm";
 

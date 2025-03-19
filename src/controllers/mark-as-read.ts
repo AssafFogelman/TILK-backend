@@ -1,8 +1,8 @@
 import { Context } from "hono";
-import { db } from "../drizzle/db";
-import { connectionRequests } from "../drizzle/schema";
+import { db } from "../drizzle/db.js";
+import { connectionRequests } from "../drizzle/schema.js";
 import { and, eq, inArray } from "drizzle-orm";
-import { uuidArraySchema } from "../models/authSchemas";
+import { uuidArraySchema } from "../models/authSchemas.js";
 
 export const markAsRead = async (c: Context) => {
   try {

@@ -2,7 +2,7 @@ import { eq, or, desc, and, not, exists } from "drizzle-orm";
 import { Context } from "hono";
 import { chats, blocks } from "../drizzle/schema.js";
 import { db } from "../drizzle/db.js";
-import { ChatType, UserType } from "../../../types/types.js";
+import { ChatType, UserType } from "../backend-types/types.js";
 
 //get the chats list
 export async function getChatsList(c: Context) {

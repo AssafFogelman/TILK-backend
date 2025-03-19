@@ -1,7 +1,7 @@
 import { Context } from "hono";
-import { db } from "../drizzle/db";
+import { db } from "../drizzle/db.js";
 import { eq } from "drizzle-orm";
-import { users } from "../drizzle/schema";
+import { users } from "../drizzle/schema.js";
 
 /*
     check for html malicious content

@@ -5,7 +5,7 @@ import {
   EmitResponse,
   EventDeliveredPayload,
   MessageDeliveredResponseType,
-} from "../../../../types/types.js";
+} from "../../backend-types/types.js";
 
 export async function eventDelivered(
   this: Socket,

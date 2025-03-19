@@ -1,8 +1,7 @@
 import { Context } from "hono";
 import { db } from "../drizzle/db.js";
 import { and, eq } from "drizzle-orm";
-import { blocks, users } from "../drizzle/schema.js";
-import { BlockedUserType } from "../../../types/types.js";
+import { blocks } from "../drizzle/schema.js";
 
 export const unblockUser = async (c: Context) => {
   try {

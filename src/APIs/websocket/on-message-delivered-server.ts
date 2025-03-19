@@ -12,7 +12,7 @@ import {
   MessageDeliveredPayload,
   MessageDeliveredResponseType,
   MessageType,
-} from "../../../../types/types.js";
+} from "../../backend-types/types.js";
 import { TilkEventType } from "../../backend-types/TilkEventType.js";
 import { Socket } from "socket.io";
 

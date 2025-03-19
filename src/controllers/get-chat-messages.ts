@@ -1,8 +1,8 @@
 import { eq, or, desc, isNotNull, and, asc, sql } from "drizzle-orm";
 import { Context } from "hono";
-import { chats, chatMessages, users } from "../drizzle/schema.js";
+import { chatMessages, chats } from "../drizzle/schema.js";
 import { db } from "../drizzle/db.js";
-import { MessageType } from "../../../types/types.js";
+import { MessageType } from "../backend-types/types.js";
 
 //get the chat messages
 export async function getChatMessages(c: Context) {

@@ -9,7 +9,7 @@ import {
   MessageType,
   NewEventResponseType,
   TilkEvent,
-} from "../../../../types/types.js";
+} from "../../backend-types/types.js";
 import { io } from "../../index.js";
 import { TilkEventType } from "../../backend-types/TilkEventType.js";
 import { Expo } from "expo-server-sdk";
@@ -43,7 +43,11 @@ export async function onNewMessage(
           senderId,
           recipientId,
           gotToServer,
-          eventId: `${recipientId}:${gotToServer + ""}.${getNextSequence(gotToServer).toString().padStart(3, "0")}:0`, //"0" is the event type of a message
+          eventId: `${recipientId}:${gotToServer + ""}.${getNextSequence(
+            gotToServer
+          )
+            .toString()
+            .padStart(3, "0")}:0`, //"0" is the event type of a message
         })
         .returning()
     )[0];

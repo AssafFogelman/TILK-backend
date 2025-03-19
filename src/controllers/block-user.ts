@@ -1,7 +1,6 @@
 import { Context } from "hono";
 import { db } from "../drizzle/db.js";
-import { blocks, chats } from "../drizzle/schema.js";
-import { eq } from "drizzle-orm";
+import { blocks } from "../drizzle/schema.js";
 
 export const blockUser = async (c: Context) => {
   try {

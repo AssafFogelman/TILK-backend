@@ -1,6 +1,6 @@
 import { Context } from "hono";
-import { db } from "../drizzle/db";
-import { tagCategories, tags, tagsTagCats } from "../drizzle/schema";
+import { db } from "../drizzle/db.js";
+import { tagCategories, tags, tagsTagCats } from "../drizzle/schema.js";
 import { eq, sql } from "drizzle-orm";
 
 /*

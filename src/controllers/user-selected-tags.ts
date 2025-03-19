@@ -1,7 +1,7 @@
 import { Context } from "hono";
 import { eq } from "drizzle-orm";
-import { db } from "../drizzle/db";
-import { tagsUsers } from "../drizzle/schema";
+import { db } from "../drizzle/db.js";
+import { tagsUsers } from "../drizzle/schema.js";
 
 export async function userSelectedTags(c: Context) {
   try {

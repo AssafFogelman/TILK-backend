@@ -156,27 +156,27 @@ async function main() {
       .values([
         {
           userId: id_972546735391,
-          tagId: foundTemplates[0].tagId,
+          tagName: foundTemplates[0].tagName,
         },
         {
           userId: id_972546735391,
-          tagId: foundTemplates[1].tagId,
+          tagName: foundTemplates[1].tagName,
         },
         {
           userId: id_972546735391,
-          tagId: foundTemplates[2].tagId,
+          tagName: foundTemplates[2].tagName,
         },
         {
           userId: id_972546735391,
-          tagId: foundTemplates[3].tagId,
+          tagName: foundTemplates[3].tagName,
         },
         {
           userId: id_972546735391,
-          tagId: foundTemplates[4].tagId,
+          tagName: foundTemplates[4].tagName,
         },
         {
           userId: id_972546735391,
-          tagId: foundTemplates[5].tagId,
+          tagName: foundTemplates[5].tagName,
         },
       ])
       .onConflictDoNothing();
@@ -185,7 +185,7 @@ async function main() {
 
     const tagsWithCategoriesAndUsers = await db
       .select({
-        tagId: tags.tagId,
+        tagName: tags.tagName,
         tagContent: tags.tagName,
         categories: sql<
           string[]
@@ -193,14 +193,14 @@ async function main() {
         users: sql<string[]>`array_agg(distinct ${users.phoneNumber})`,
       })
       .from(tags)
-      .leftJoin(tagsTagCats, eq(tags.tagId, tagsTagCats.tagId))
+      .leftJoin(tagsTagCats, eq(tags.tagName, tagsTagCats.tagName))
       .leftJoin(
         tagCategories,
         eq(tagsTagCats.tagCategoryId, tagCategories.tagCategoryId)
       )
-      .leftJoin(tagsUsers, eq(tags.tagId, tagsUsers.tagId))
+      .leftJoin(tagsUsers, eq(tags.tagName, tagsUsers.tagName))
       .leftJoin(users, eq(tagsUsers.userId, users.userId))
-      .groupBy(tags.tagId, tags.tagName);
+      .groupBy(tags.tagName);
 
     console.log("tagsWithCategoriesAndUsers:", tagsWithCategoriesAndUsers);
 

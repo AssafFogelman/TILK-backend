@@ -3,7 +3,7 @@ import {
   MessageType,
   NewEventPayload,
   NewEventResponseType,
-} from "../../../../types/types.js";
+} from "../../backend-types/types.js";
 import { TilkEventType } from "../../backend-types/TilkEventType.js";
 import { onNewMessage as onNewMessage } from "./on-new-message-server.js";
 

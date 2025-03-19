@@ -15,7 +15,7 @@ import {
   ReceivedRequestsQueryResult,
   ConnectedUsersQueryResult,
   SentRequestsQueryResult,
-} from "../../../types/types.js";
+} from "../backend-types/types.js";
 import ConnectionsCategory from "../backend-types/ConnectionsCategory.js";
 
 /*

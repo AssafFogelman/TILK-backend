@@ -1,12 +1,12 @@
 import { Context, Next } from "hono";
-import { verifyToken } from "../config/jwt";
-import React from "react";
-import { db } from "../drizzle/db";
-import { errorLog } from "../drizzle/schema";
+import { verifyToken } from "../config/jwt.js";
+import { db } from "../drizzle/db.js";
+import { errorLog } from "../drizzle/schema.js";
+import { ReactErrorInfoType } from "../backend-types/types.js";
 
 type ErrorType = {
   error: Error;
-  info: React.ErrorInfo;
+  info: ReactErrorInfoType;
 };
 /*
   log an error record
@@ -26,7 +26,6 @@ export const logError = async (c: Context, next: Next) => {
     await db.insert(errorLog).values({
       error: JSON.stringify(error),
       info: JSON.stringify({
-        componentStack: info.componentStack,
         ...info,
       }),
       userId,

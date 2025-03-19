@@ -8,7 +8,7 @@ import {
   EmitResponse,
   SetCurrentlyConnectedPayload,
   SetCurrentlyConnectedResponseType,
-} from "../../../../types/types.js";
+} from "../../backend-types/types.js";
 
 //set as "currently connected" + join a room + if this is a reconnection, deliver the missed events
 export async function setCurrentlyConnected(
