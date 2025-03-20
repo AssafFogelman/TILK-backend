@@ -11,7 +11,9 @@
     "db:migrate": "node --import tsx src/drizzle/migrate.ts",
     "db:execute": "nodemon --quiet --exec \"node --import tsx src/drizzle/main.ts\"",
     "db:upgrade": "npx drizzle-kit up:pg",
-    "db:drop": "npx drizzle-kit drop"
+    "db:drop": "npx drizzle-kit drop",
+    "build": "tsc --noEmit --skipLibCheck",
+    "start": "tsx src/index.ts"
   },
   "author": "Assaf Fogelman",
   "license": "ISC",
