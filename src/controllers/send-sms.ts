@@ -4,8 +4,7 @@ import twilio from "twilio";
 import "dotenv/config";
 
 // /** Twilio setup */
-console.log("TWILIO_ACCOUNT_SID", process.env.TWILIO_ACCOUNT_SID);
-console.log("TWILIO_AUTH_TOKEN", process.env.TWILIO_AUTH_TOKEN);
+
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = twilio(accountSid, authToken);
@@ -58,14 +57,14 @@ export const sendSms = async (c: Context) => {
     const hash = await createHash(
       phoneNumber + code + process.env.VALIDATION_KEY
     );
-    // //send SMS
-    // await client.messages
-    //   .create({
-    //     body: "enter the following code: " + code,
-    //     from: "TILK",
-    //     to: phoneNumber,
-    //   })
-    //   .then((message) => console.log("SMS sent! Id:", message.sid));
+    //send SMS
+    await client.messages
+      .create({
+        body: "enter the following code: " + code,
+        from: "TILK",
+        to: phoneNumber,
+      })
+      .then((message) => console.log("SMS sent! Id:", message.sid));
     console.log("the code to be entered: ", code);
     return c.json({ hash: hash }, 201);
   } catch (error) {
