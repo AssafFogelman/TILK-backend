@@ -51,7 +51,7 @@ app.route("/", routes); // Handle routes
 app.use("/public/*", serveStatic({ root: "./" }));
 
 //setting up the server listener to the port
-const port = 5000;
+const port = process.env.PORT ? parseInt(process.env.PORT) : 5000;
 const serverIP = getServerIP();
 
 const httpServer = serve(

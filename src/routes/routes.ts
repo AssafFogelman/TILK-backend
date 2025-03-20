@@ -9,6 +9,9 @@ import { notifications } from "./notifications/notifications.js";
 
 export const routes = new Hono();
 
+// Health check endpoint
+routes.get("/", (c) => c.json({ status: "ok" }));
+
 routes.route("/", auth); //Handle route "auth"
 routes.route("/", user); //Handle route "user"
 routes.route("/", location); //Handle route "auth"
